@@ -10,13 +10,14 @@ Additional description about the project and its features.
 
 ## Built With
 
+- Webpack
 - HTML
 - CSS
 - JS
 
 ## Live Demo
 
-[Live Demo Link](https://jihaneh.github.io/TodoList)
+[Live Demo Link](https://jihaneh.github.io/TodoList/dist/)
 
 ## Getting Started
 
