@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: #f6f6f6;
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo {
+  box-shadow: 3px 2px 4px gray;
+}
+
+.todo > div {
+  width: 250px;
+  max-width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #dcdbdb;
+  padding: 20px;
+}
+
+.todo .header {
+  background-color: white;
+}
+
+.todo .tasks,
+.todo .add_task {
+  background-color: white;
+}
+
+.todo .footer {
+  text-align: center;
+  color: grey;
+}
