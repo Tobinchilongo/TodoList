@@ -1,26 +1,49 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # To-do list
 
 > "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
-
 ## Built With
 
+- Webpack
 - HTML
 - CSS
 - JS
 
 ## Live Demo
 
-[Live Demo Link](https://jihaneh.github.io/TodoList)
+[Live Demo Link](https://jihaneh.github.io/TodoList/dist/)
 
 ## Getting Started
 
-Download the project, unzip it and open index.html file in the browser
+To get a local copy up and running follow these steps.
+
+### Prerequisites
+
+You need to have NODE.JS set up on your local machine.
+
+### Setup
+
+Download the project and unzip it.
+
+### Install
+
+Execute this command on your terminal
+
+```
+npm install
+```
+
+### Deployment
+
+Execute this command on your terminal
+
+```
+npm start
+```
+
+It will open your browser with the project homepage
 
 ## Authors
 
