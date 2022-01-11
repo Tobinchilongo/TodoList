@@ -8,7 +8,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "watch": "webpack --watch",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "lcss": "stylelint '**/*.{css,scss}'",
+    "lfcss": "stylelint '**/*.{css,scss}' --fix",
+    "lhtml": "npx eslint .",
+    "ljs": "npx eslint .",
+    "lfjs": "npx eslint . --fix",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -39,6 +45,7 @@
     "webpack-dev-server": "^4.7.2"
   },
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "lodash": "^4.17.21"
   }
 }
