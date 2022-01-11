@@ -25,12 +25,15 @@ section {
   min-width: 400px;
   max-width: 550px;
   display: flex;
+  justify-content: space-between;
   border-bottom: 1px solid #dcdbdb;
 }
 
 .todo .header {
   background-color: white;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .todo .header h1 {
@@ -47,6 +50,11 @@ section {
 .todo .add_task,
 .task {
   padding: 20px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
 }
 
 .todo .tasks {
